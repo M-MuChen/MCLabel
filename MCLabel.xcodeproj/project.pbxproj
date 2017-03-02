@@ -13,6 +13,7 @@
 		44351DF81E67F30F004AECF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44351DF61E67F30F004AECF5 /* Main.storyboard */; };
 		44351DFA1E67F30F004AECF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44351DF91E67F30F004AECF5 /* Assets.xcassets */; };
 		44351DFD1E67F30F004AECF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44351DFB1E67F30F004AECF5 /* LaunchScreen.storyboard */; };
+		44351E071E67F3D6004AECF5 /* UILabel+MCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44351E061E67F3D6004AECF5 /* UILabel+MCLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		44351DF91E67F30F004AECF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44351DFC1E67F30F004AECF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44351DFE1E67F30F004AECF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44351E051E67F3D6004AECF5 /* UILabel+MCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MCLabel.h"; sourceTree = "<group>"; };
+		44351E061E67F3D6004AECF5 /* UILabel+MCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MCLabel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				44351DFB1E67F30F004AECF5 /* LaunchScreen.storyboard */,
 				44351DFE1E67F30F004AECF5 /* Info.plist */,
 				44351DED1E67F30F004AECF5 /* Supporting Files */,
+				44351E051E67F3D6004AECF5 /* UILabel+MCLabel.h */,
+				44351E061E67F3D6004AECF5 /* UILabel+MCLabel.m */,
 			);
 			path = MCLabel;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44351DF51E67F30F004AECF5 /* ViewController.m in Sources */,
+				44351E071E67F3D6004AECF5 /* UILabel+MCLabel.m in Sources */,
 				44351DF21E67F30F004AECF5 /* AppDelegate.m in Sources */,
 				44351DEF1E67F30F004AECF5 /* main.m in Sources */,
 			);
